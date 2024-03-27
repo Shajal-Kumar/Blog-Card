@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    height: 522px;
+    width:350px ;
+    background-color: white;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    padding:2px 15px;
+}
+
+#pbox{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 10px;
+}
+
+img{
+    border-radius: 15px;
+    margin:10px;
+}
+
+span{
+    height: 29px;
+    width: 82px;
+    background-color: hsl(47, 88%, 63%);
+    padding:4px 12px;   
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-family: "Figtree";
+}
+
+#box2{
+    font-family: "Figtree";
+    margin: 12px 8px;
+}
+
+#box2 > h2:hover{
+    color: hsl(47, 88%, 63%);
+    text-shadow: 1px 1px hsl(0, 0%, 7%);
+}
+
+#text{
+    color: hsl(0, 0%, 50%);
+}
